@@ -31,7 +31,7 @@ const Contact = () => {
           </div>
           <div className="flex gap-5 items-center justify-center md:justify-end">
             <a
-              href="https://www.linkedin.com/in/dhairya-modh/"
+              href="https://www.linkedin.com/in/dhairya-modh-987613187/"
               target="_blank"
               className="hover:scale-110 transition-transform"
             >
