@@ -5,7 +5,7 @@ const Hero = () => {
       className="flex flex-col justify-start md:justify-around min-h-auto md:min-h-[100vh] box-border pt-32 md:pt-20"
     >
       <div className="flex flex-col items-start">
-        <h1 className="text-5xl md:text-8xl leading-tight mb-3 md:mb-5">
+        <h1 className="text-5xl md:text-5xl lg:text-8xl leading-tight mb-3 md:mb-5">
           <span className="font-light">
             My name
             <br />

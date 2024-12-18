@@ -55,10 +55,10 @@ function App() {
     <div className="relative overflow-hidden min-h-[100vh] w-full">
       <img
         src="hero-bg.png"
-        className="relative md:absolute top-10 md:-top-36 -right-24 md:-right-60 object-cover z-[-1] h-full scale-150 md:scale-[1] md:h-[125vh]"
+        className="relative md:absolute top-10 md:-top-36 -right-24 md:-right-60 object-cover z-[-1] h-full scale-150 md:scale-[1] md:h-[85vh] lg:h-[125vh]"
       />
-      <div className="p-5 py-3 absolute left-5 md:left-auto md:right-[35rem] md:top-[30rem] bg-secondary rounded-2xl">
-        <p className="text-4xl md:text-5xl text-white">5+</p>
+      <div className="p-5 py-3 absolute left-5 md:left-auto md:right-[20rem] lg:right-[35rem] md:top-[30rem] bg-secondary rounded-2xl">
+        <p className="text-4xl md:text-3xl lg:text-5xl text-white">5+</p>
         <p className="text-muted text-sm md:text-lg">years experience</p>
       </div>
       <div className="container mx-auto min-h-[100vh] md:p-0 px-4">

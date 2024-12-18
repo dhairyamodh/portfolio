@@ -8,7 +8,7 @@ const Header = ({ handleNavClick, navLinks, activeSection }) => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      if (window.innerHeight < 768) {
+      if (window.innerHeight > 768) {
         if (boxRef.current) {
           if (scrollY > initialOffset) {
             // Add the class and the forward animation when scrolling past the threshold
@@ -33,7 +33,7 @@ const Header = ({ handleNavClick, navLinks, activeSection }) => {
   return (
     <nav
       ref={boxRef}
-      className={`container absolute md:fixed left-0 md:left-auto z-10 transition-transform duration-500 py-5 top-0`}
+      className={`container absolute md:fixed left-0 md:left-auto z-10 transition-transform duration-500 py-2 md:py-5 top-0`}
     >
       <div className="relative hidden md:flex items-center justify-between">
         <ul className="flex items-center gap-2">
